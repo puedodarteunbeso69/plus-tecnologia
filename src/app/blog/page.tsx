@@ -39,11 +39,11 @@ export const metadata = {
 };
 
 const blogCategories = [
-  { id: "all", name: "Todos", icon: TrendingUp, count: 16, color: "bg-blue-500" },
-  { id: "desarrollo", name: "Desarrollo", icon: Code2, count: 6, color: "bg-green-500" },
+  { id: "all", name: "Todos", icon: TrendingUp, count: 20, color: "bg-blue-500" },
+  { id: "desarrollo", name: "Desarrollo", icon: Code2, count: 9, color: "bg-green-500" },
   { id: "ia", name: "IA & Big Data", icon: Brain, count: 5, color: "bg-orange-500" },
+  { id: "cloud", name: "Cloud", icon: Cloud, count: 3, color: "bg-purple-500" },
   { id: "ciberseguridad", name: "Ciberseguridad", icon: Shield, count: 2, color: "bg-red-500" },
-  { id: "cloud", name: "Cloud", icon: Cloud, count: 2, color: "bg-purple-500" },
   { id: "tendencias", name: "Tendencias", icon: TrendingUp, count: 1, color: "bg-pink-500" }
 ];
 
@@ -69,6 +69,24 @@ const allArticles = [
   },
   {
     id: 2,
+    title: "Serverless Architecture 2025: Guía Completa y Mejores Prácticas",
+    slug: "serverless-architecture-2025",
+    excerpt: "Cómo serverless puede reducir tus costos hasta 70% mientras escala automáticamente. AWS Lambda, Azure Functions, patrones de diseño y casos de uso reales.",
+    category: "cloud",
+    author: {
+      name: "Elena Rodríguez",
+      avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=80&h=80&fit=crop&crop=face",
+      role: "Solutions Architect"
+    },
+    publishedAt: "2025-01-22",
+    readTime: "14 min",
+    image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&h=400&fit=crop",
+    tags: ["Serverless", "AWS Lambda", "Azure Functions", "Cloud"],
+    featured: true,
+    views: 2890
+  },
+  {
+    id: 3,
     title: "DevOps y CI/CD: Guía Completa 2025 para Equipos Modernos",
     slug: "devops-cicd-guia-completa-2025",
     excerpt: "Pipeline completo desde código hasta producción. GitHub Actions, Docker, Kubernetes y métricas DORA para teams de alto rendimiento.",
@@ -83,10 +101,10 @@ const allArticles = [
     image: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800&h=400&fit=crop",
     tags: ["DevOps", "CI/CD", "Kubernetes", "Docker"],
     featured: true,
-    views: 2890
+    views: 3156
   },
   {
-    id: 3,
+    id: 4,
     title: "Blockchain y Web3 en 2025: La Revolución Descentralizada Ya Está Aquí",
     slug: "blockchain-web3-2025",
     excerpt: "DeFi, NFTs utilitarios, smart contracts y casos de uso empresariales reales. El futuro descentralizado con ROI medible.",
@@ -100,11 +118,65 @@ const allArticles = [
     readTime: "14 min",
     image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=400&fit=crop",
     tags: ["Blockchain", "Web3", "DeFi", "Smart Contracts"],
-    featured: true,
+    featured: false,
     views: 2456
   },
   {
-    id: 4,
+    id: 5,
+    title: "Testing Automatizado y QA en 2025: Estrategias para Equipos Ágiles",
+    slug: "testing-automatizado-qa-2025",
+    excerpt: "Testing end-to-end, TDD, BDD y CI/CD integration. Cypress, Playwright, Jest y estrategias de QA automatizado para reducir bugs en 80%.",
+    category: "desarrollo",
+    author: {
+      name: "Laura Martínez",
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face",
+      role: "QA Lead & Test Automation Specialist"
+    },
+    publishedAt: "2025-01-24",
+    readTime: "13 min",
+    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop",
+    tags: ["Testing", "QA", "Automation", "Cypress", "TDD"],
+    featured: false,
+    views: 1987
+  },
+  {
+    id: 6,
+    title: "API-First Development 2025: Diseña APIs Escalables y Mantenibles",
+    slug: "api-first-development-2025",
+    excerpt: "OpenAPI 3.1, diseño de APIs RESTful, GraphQL, versionado semántico y documentación automática. Estrategia API-first para equipos modernos.",
+    category: "desarrollo",
+    author: {
+      name: "Miguel Torres",
+      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face",
+      role: "Backend Architect & API Specialist"
+    },
+    publishedAt: "2025-01-26",
+    readTime: "12 min",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop",
+    tags: ["API", "REST", "GraphQL", "OpenAPI", "Backend"],
+    featured: false,
+    views: 1765
+  },
+  {
+    id: 7,
+    title: "Edge Computing 2025: Procesamiento en el Borde de la Red",
+    slug: "edge-computing-2025",
+    excerpt: "CDNs programmables, Cloudflare Workers, edge functions y IoT. Reducción de latencia hasta 90% procesando datos cerca del usuario.",
+    category: "cloud",
+    author: {
+      name: "Roberto Sánchez",
+      avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop&crop=face",
+      role: "Cloud Architect"
+    },
+    publishedAt: "2025-01-28",
+    readTime: "11 min",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop",
+    tags: ["Edge Computing", "CDN", "IoT", "Performance"],
+    featured: false,
+    views: 1654
+  },
+  {
+    id: 8,
     title: "Next.js 15: Todas las Novedades y Mejoras para 2025",
     slug: "nextjs-15-novedades-2025",
     excerpt: "Explora las nuevas características de Next.js 15: Turbopack, Server Actions mejorados, optimizaciones de rendimiento y más.",
@@ -122,7 +194,7 @@ const allArticles = [
     views: 2134
   },
   {
-    id: 5,
+    id: 9,
     title: "Realidad Virtual en Desarrollo Web 2025: WebXR y el Metaverso Empresarial",
     slug: "realidad-virtual-desarrollo-web-2025",
     excerpt: "WebXR, showrooms virtuales, formación VR y metaverso empresarial. El futuro inmersivo de la web ya está aquí.",
@@ -140,7 +212,7 @@ const allArticles = [
     views: 1876
   },
   {
-    id: 6,
+    id: 10,
     title: "Automatización de Procesos con IA en 2025: RPA Inteligente y Workflows Adaptativos",
     slug: "automatizacion-procesos-ia-2025",
     excerpt: "RPA inteligente, automatización con IA generativa y workflows adaptativos. Casos reales con 400% ROI documentado.",
@@ -158,7 +230,7 @@ const allArticles = [
     views: 1654
   },
   {
-    id: 7,
+    id: 11,
     title: "TypeScript 5: Guía Completa de Nuevas Características 2025",
     slug: "typescript-5-guia-completa-2025",
     excerpt: "Domina TypeScript 5: decorators, type predicates mejorados, const type parameters y más. Ejemplos prácticos incluidos.",
@@ -176,7 +248,7 @@ const allArticles = [
     views: 2045
   },
   {
-    id: 8,
+    id: 12,
     title: "Python para Machine Learning en 2025: Guía Definitiva",
     slug: "python-machine-learning-2025",
     excerpt: "Aprende Python para Machine Learning: TensorFlow, PyTorch, scikit-learn, MLOps y mejores prácticas. Guía completa con ejemplos reales.",
@@ -194,11 +266,11 @@ const allArticles = [
     views: 2567
   },
   {
-    id: 9,
+    id: 13,
     title: "Docker y Kubernetes: Guía Práctica Completa 2025",
     slug: "docker-kubernetes-guia-practica-2025",
     excerpt: "Domina Docker y Kubernetes: containerización, orquestación, CI/CD, seguridad y mejores prácticas. De desarrollo a producción.",
-    category: "cloud",
+    category: "desarrollo",
     author: {
       name: "Roberto Sánchez",
       avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop&crop=face",
@@ -212,7 +284,7 @@ const allArticles = [
     views: 3012
   },
   {
-    id: 10,
+    id: 14,
     title: "GraphQL vs REST APIs en 2025: Guía Completa de Decisión",
     slug: "graphql-vs-rest-apis-2025",
     excerpt: "Comparativa exhaustiva GraphQL vs REST: rendimiento, casos de uso, seguridad, herramientas y cuándo usar cada uno.",
@@ -230,7 +302,7 @@ const allArticles = [
     views: 1789
   },
   {
-    id: 11,
+    id: 15,
     title: "Arquitectura de Microservicios en 2025: Guía Completa",
     slug: "microservicios-arquitectura-2025",
     excerpt: "Diseña arquitecturas de microservicios escalables: patterns, comunicación, observabilidad, seguridad y migración desde monolitos.",
@@ -248,7 +320,7 @@ const allArticles = [
     views: 2234
   },
   {
-    id: 12,
+    id: 16,
     title: "PostgreSQL: Optimización y Performance en 2025",
     slug: "postgresql-optimizacion-2025",
     excerpt: "Optimiza PostgreSQL para máximo rendimiento: indexing strategies, query optimization, replicación, sharding y monitoring.",
@@ -266,7 +338,7 @@ const allArticles = [
     views: 1543
   },
   {
-    id: 13,
+    id: 17,
     title: "El Futuro del Desarrollo Móvil: Flutter vs React Native en 2024",
     slug: "futuro-desarrollo-movil-flutter-vs-react-native-2024",
     excerpt: "Análisis comparativo de las dos principales tecnologías para desarrollo móvil multiplataforma. Descubre cuál elegir para tu próximo proyecto.",
@@ -284,7 +356,7 @@ const allArticles = [
     views: 2340
   },
   {
-    id: 14,
+    id: 18,
     title: "Ciberseguridad en 2024: Las 10 Amenazas que Debes Conocer",
     slug: "ciberseguridad-2024-amenazas-principales",
     excerpt: "Un repaso completo a las principales amenazas de ciberseguridad que enfrentarán las empresas este año y cómo protegerse de ellas.",
@@ -302,7 +374,7 @@ const allArticles = [
     views: 1890
   },
   {
-    id: 15,
+    id: 19,
     title: "Desarrollo con IA Generativa en 2025: ChatGPT, Copilot y Más",
     slug: "desarrollo-ia-generativa-2025",
     excerpt: "Cómo las herramientas de IA generativa están revolucionando el desarrollo de software. GitHub Copilot, ChatGPT y productividad 10x.",
@@ -320,11 +392,11 @@ const allArticles = [
     views: 2678
   },
   {
-    id: 16,
+    id: 20,
     title: "Migración a la Nube: Guía Completa para Empresas en 2025",
     slug: "migracion-nube-guia-completa-empresas-2024",
     excerpt: "Todo lo que necesitas saber para migrar tu infraestructura a la nube de forma segura y eficiente. Estrategias, herramientas y mejores prácticas.",
-    category: "cloud",
+    category: "ciberseguridad",
     author: {
       name: "Roberto Sánchez",
       avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=80&h=80&fit=crop&crop=face",
@@ -343,7 +415,7 @@ const allArticles = [
 const featuredArticles = allArticles.filter(article => article.featured);
 
 // Artículos recientes (todos los demás ordenados por fecha)
-const recentArticles = allArticles.filter(article => !article.featured).slice(0, 8);
+const recentArticles = allArticles.filter(article => !article.featured).slice(0, 12);
 
 export default function BlogPage() {
   const getCategoryIcon = (categoryId: string) => {

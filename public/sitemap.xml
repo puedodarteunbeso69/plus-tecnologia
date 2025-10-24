@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://plustecnologia.com</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Servicios Principales -->
+  <url>
+    <loc>https://plustecnologia.com/servicios</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ... existing code ... <servicios principales and subsections> -->
+
+  <!-- NUEVAS LANDING PAGES SEO - Diseño Web por Sector -->
+  <url>
+    <loc>https://plustecnologia.com/diseno-web-ecommerce-madrid</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/diseno-web-restaurantes</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/diseno-web-medicos-clinicas</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/diseno-web-inmobiliarias</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NUEVAS LANDING PAGES SEO - Desarrollo Apps por Plataforma -->
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-app-ios-swift</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-app-android-kotlin</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-app-hibrida-react-native</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-pwa-progressive-web-app</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NUEVAS LANDING PAGES SEO - Soluciones por Problema -->
+  <url>
+    <loc>https://plustecnologia.com/migracion-web-antigua-moderna</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/optimizacion-velocidad-web</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/integracion-erp-crm-web</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/app-inventario-movil-empresas</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NUEVAS LANDING PAGES SEO - Tecnologías Específicas -->
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-web-nextjs-react</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-backend-nodejs</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-app-flutter-multiplataforma</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-web-wordpress-personalizado</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NUEVAS LANDING PAGES SEO - Por Presupuesto/Tamaño -->
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-web-pymes-precio</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/app-movil-startup-mvp</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/desarrollo-web-freelance-vs-agencia</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NUEVAS LANDING PAGES SEO - Comparativas -->
+  <url>
+    <loc>https://plustecnologia.com/nextjs-vs-wordpress-cual-elegir</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/app-nativa-vs-hibrida-diferencias</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/diseno-web-plantilla-vs-medida</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plustecnologia.com/shopify-vs-woocommerce-ecommerce</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ... existing code ... <blog and other pages> -->
+
+</urlset>

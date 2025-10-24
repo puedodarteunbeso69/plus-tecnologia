@@ -1,0 +1,71 @@
+# Robots.txt for PLUS TECNOLOGIA
+# https://plustecnologia.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://plustecnologia.com/sitemap-index.xml
+Sitemap: https://plustecnologia.com/sitemap.xml
+Sitemap: https://plustecnologia.com/sitemap-images.xml
+Sitemap: https://plustecnologia.com/sitemap-news.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important directories
+Allow: /blog/
+Allow: /desarrollo-web/
+Allow: /desarrollo-movil/
+Allow: /portfolio/
+Allow: /nosotros/
+Allow: /contacto/
+
+# Media files
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+Allow: *.ico
+
+# Specific bots configurations
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit/
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Additional sitemaps (future enhancement)
+# Sitemap: https://plustecnologia.com/sitemap-images.xml
+# Sitemap: https://plustecnologia.com/sitemap-news.xml

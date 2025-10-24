@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Smartphone, Zap, Globe, Code2, TrendingUp, ArrowRight, Layers } from "lucide-react";
 import Image from "next/image";
-import Link from="next/link";
+import Link from "next/link";
 
 export const metadata = {
   title: "Desarrollo Apps Flutter Multiplataforma Madrid | iOS Android Web 2025",

@@ -70,7 +70,7 @@ const teamMembers = [
     speciality: "Experto Comercial & Relaciones Públicas",
     experience: "14+ años",
     image: "",
-    skills: ["Business Strategy", "Corporate Relations", "Sales Development", "Market Positioning"],
+    skills: ["Estrategia Empresarial", "Relaciones Corporativas", "Desarrollo de Ventas", "Posicionamiento en el Mercado"],
     linkedin: "#"
   },
   {
@@ -384,7 +384,7 @@ export default function NosotrosPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
-                    <div className="flex flex-wrap gap-2">
+                    <div className="grid grid-cols-2 gap-2">
                       {member.skills.map((skill, i) => (
                         <Badge key={i} variant="secondary" className="text-xs">
                           {skill}

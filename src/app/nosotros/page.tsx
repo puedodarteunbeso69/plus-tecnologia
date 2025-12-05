@@ -46,60 +46,60 @@ export const metadata = {
 };
 
 const teamMembers = [
-  {
-    name: "Aurimas Markunas",
-    role: "CEO",
-    speciality: "Chief Executive Officer",
-    experience: "15+ años",
-    image: "",
-    skills: ["Leadership", "Strategy", "Business Development", "Innovation"],
-    linkedin: "#"
-  },
-  {
-    name: "Ramon Álvarez Vega",
-    role: "CFO",
-    speciality: "Chief Financial Officer",
-    experience: "12+ años",
-    image: "",
-    skills: ["Finance", "Investment", "Risk Management", "Operations"],
-    linkedin: "#"
-  },
-  {
-    name: "Carlos Herrera Jiménez",
-    role: "CTO",
-    speciality: "Chief Technology Officer",
-    experience: "14+ años",
-    image: "",
-    skills: ["Technology Strategy", "Architecture", "Development", "Innovation"],
-    linkedin: "#"
-  },
-  {
-    name: "Sara Kim",
-    role: "CMO",
-    speciality: "Chief Marketing Officer",
-    experience: "10+ años",
-    image: "",
-    skills: ["Marketing", "Branding", "Digital Strategy", "Growth"],
-    linkedin: "#"
-  },
-  {
-    name: "Marina Costa Silva",
-    role: "COO",
-    speciality: "Chief Operations Officer",
-    experience: "11+ años",
-    image: "",
-    skills: ["Operations", "Process Optimization", "Team Management", "Quality"],
-    linkedin: "#"
-  },
-  {
-    name: "Carmen López",
-    role: "UX/UI Designer",
-    speciality: "Diseño de Experiencias",
-    experience: "7+ años",
-    image: "",
-    skills: ["Figma", "User Research", "Prototyping", "Design Systems"],
-    linkedin: "#"
-  }
+{
+  name: "Aurimas Markunas",
+  role: "CEO",
+  speciality: "Director Ejecutivo",
+  experience: "15+ años",
+  image: "",
+  skills: ["Liderazgo", "Estrategia", "Desarrollo de Negocios", "Innovación"],
+  linkedin: "#"
+},
+{
+  name: "Ramon Álvarez Vega",
+  role: "CFO",
+  speciality: "Director Financiero",
+  experience: "12+ años",
+  image: "",
+  skills: ["Finanzas", "Inversión", "Gestión de Riesgos", "Operaciones"],
+  linkedin: "#"
+},
+{
+  name: "Luis Miralles Villanueva",
+  role: "PRD",
+  speciality: "Experto Comercial y de Relaciones Públicas",
+  experience: "14+ años",
+  image: "",
+  skills: ["Estrategia Comercial", "Relaciones Corporativas", "Desarrollo de Ventas", "Posicionamiento de Mercado"],
+  linkedin: "#"
+},
+{
+  name: "Sara Kim",
+  role: "CMO",
+  speciality: "Directora de Marketing",
+  experience: "10+ años",
+  image: "",
+  skills: ["Marketing", "Branding", "Estrategia Digital", "Crecimiento"],
+  linkedin: "#"
+},
+{
+  name: "Marina Costa Silva",
+  role: "COO",
+  speciality: "Directora de Operaciones",
+  experience: "11+ años",
+  image: "",
+  skills: ["Operaciones", "Optimización de Procesos", "Gestión de Equipos", "Calidad"],
+  linkedin: "#"
+},
+{
+  name: "Carmen López",
+  role: "UX/UI Designer",
+  speciality: "Diseño de Experiencias",
+  experience: "7+ años",
+  image: "",
+  skills: ["Figma", "Investigación de Usuarios", "Prototipado", "Sistemas de Diseño"],
+  linkedin: "#"
+}
 ];
 
 const companyValues = [

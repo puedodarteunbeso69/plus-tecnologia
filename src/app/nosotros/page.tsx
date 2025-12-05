@@ -47,7 +47,7 @@ export const metadata = {
 
 const teamMembers = [
 {
-  name: "Aurimas Markunas",
+  name: "Izan Markunas",
   role: "CEO",
   speciality: "Director Ejecutivo",
   experience: "15+ años",
